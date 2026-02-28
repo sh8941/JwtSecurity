@@ -1,4 +1,4 @@
-package com.haider.JwtSecurity.jwt;
+package com.haider.JwtSecurity.dto;
 
 public class LoginRequest {
     private String username;

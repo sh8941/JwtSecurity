@@ -1,5 +1,7 @@
-package com.haider.JwtSecurity.jwt;
+package com.haider.JwtSecurity.config;
 
+import com.haider.JwtSecurity.jwt.AuthEntryPointJwt;
+import com.haider.JwtSecurity.jwt.AuthTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

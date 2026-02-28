@@ -1,6 +1,5 @@
 package com.haider.JwtSecurity.jwt;
 
-import com.haider.JwtSecurity.jwt.SecurityConfig;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;

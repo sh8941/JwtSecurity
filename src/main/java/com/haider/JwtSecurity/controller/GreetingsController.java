@@ -1,4 +1,4 @@
-package com.haider.JwtSecurity;
+package com.haider.JwtSecurity.controller;
 
 import com.haider.JwtSecurity.jwt.JwtUtils;
 import com.haider.JwtSecurity.jwt.LoginRequest;
