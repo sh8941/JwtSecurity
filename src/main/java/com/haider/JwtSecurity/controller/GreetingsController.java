@@ -1,9 +1,8 @@
 package com.haider.JwtSecurity.controller;
 
 import com.haider.JwtSecurity.jwt.JwtUtils;
-import com.haider.JwtSecurity.jwt.LoginRequest;
-import com.haider.JwtSecurity.jwt.LoginResponse;
-import io.jsonwebtoken.Jwts;
+import com.haider.JwtSecurity.dto.LoginRequest;
+import com.haider.JwtSecurity.dto.LoginResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

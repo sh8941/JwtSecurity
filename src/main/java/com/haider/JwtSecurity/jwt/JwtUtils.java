@@ -24,7 +24,8 @@ public class JwtUtils {
 
     @Value("${spring.app.jwtSecret}")
     private String jwtSecret;
-    private int jwtExpirationMs = 3600*1000*1000*1000;
+    @Value("${spring.app.jwtExpirationMs}")
+    private long jwtExpirationMs = 3600*1000*1000*1000;
 
     public String getJwtFromHeader(HttpServletRequest request) {
         String bearerToken = request.getHeader("Authorization");
